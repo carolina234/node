@@ -1,0 +1,16 @@
+{
+  "name": "nodeaula",
+  "version": "1.0.0",
+  "description": "aprendendo a fazer uma localhost",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/index.ts"
+  },
+  "author": "ana carolina",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}
